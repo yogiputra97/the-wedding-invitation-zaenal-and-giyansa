@@ -1,0 +1,107 @@
+.first {
+    height: 100vh;
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    background-position: left;
+}
+
+.second {
+    height: 100vh;
+    background-image: url(../images/bg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+}
+
+.third {
+    height: 100vh;
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+}
+
+
+.title {
+    font-family: Lobster;
+    font-size: calc(1.525rem + 3.3vw);
+}
+
+.responsive-text {
+    font-family: Pacifico;
+}
+
+#intro {
+    height: 100vh;
+}
+
+#page1 {
+    height: 100vh;
+    display: none;
+}
+
+#page2 {
+    height: 100vh;
+    display: none;
+}
+
+#page3 {
+    height: 100vh;
+    display: none;
+}
+
+#page4 {
+    height: 100vh;
+    display: none;
+}
+
+.frame { 
+    background-image: url(../images/frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    width: 320px;
+}
+
+.countdown {
+    width: 320px;
+}
+
+.box {
+    font-family: Quantico;
+    width: 23%;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+/*extra*/
+
+.another {
+    font-family: Lobster;
+}
+
+.oleo {
+    font-family: Oleo;
+}
+
+.color-bg3 {
+    color: gray;
+}
+
+.ghost {
+    height: 100px;
+}
+
+.maps {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/maps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    border: 4px solid gray;
+}

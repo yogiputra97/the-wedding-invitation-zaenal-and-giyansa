@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/google-font.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <audio src="/assets/audio/audio.mp3" id="audios"></audio>
+
+    <div id="intro">
+
+        <div class="first d-flex align-items-center flex-column ">
+
+            <div class=" text-center position-relative z-2 mt-2">
+                <h1 class="title mt-4 mb-4">Weding Invitation</h1>
+            </div>
+
+            <div class="frame text-center d-flex flex-column justify-content-center mt-4">
+                <h2 class="responsive-text ms-2 ">Zaenal Ansori</h2>
+                <h2 class="responsive-text ms-2">&</h2>
+                <h2 class="responsive-text ms-2 mb-4">Giyansa Nurul Aulia</h2>
+            </div>
+
+            <h5 class="mb-5 mt-2">Sabtu, 11 Maret 2023</h5>
+
+            <div class="date d-flex flex-column align-items-center">
+
+                <div class="countdown d-flex flex-row align-items-center justify-content-between mb-5">
+
+                    <div class="box fw-bold d-flex flex-column align-items-center justify-content-between">
+                        <span class="mt-2" id="hari"></span>
+                        <p>Hari</p>
+                    </div>
+                    <div class="box fw-bold d-flex flex-column align-items-center justify-content-between">
+                        <span class="mt-2" id="jam"></span>
+                        <p>Jam</p>
+                    </div>
+                    <div class="box fw-bold d-flex flex-column align-items-center justify-content-between">
+                        <span class="mt-2" id="menit"></span>
+                        <p>Menit</p>
+                    </div>
+                    <div class="box fw-bold d-flex flex-column align-items-center justify-content-between">
+                        <span class="mt-2" id="detik"></span>
+                        <p>Detik</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mb-5 btn btn-primary position-relative z-1" onclick="buka()">Buka Undangan</div>
+        </div>
+
+    </div>
+
+    <div id="page1">
+
+        <div class="second d-flex align-items-center flex-column justify-content-between ">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="text-center position-relative z-2">
+                <h1 class="another mt-4">اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَا تُهُ
+                </h1>
+            </div>
+
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="text-center m3 fw-semibold">Maha Suci Allah yang telah menciptakan ke dunia
+                mahluk-mahluk
+                ciptaanNya
+                secara berpasang-pasangan satu sama lain. Ya, Allah izinkanlah kami untuk merangkai jalinan kasih di
+                bawah ridhoMu,
+                <br>
+                Berikanlah kami kesempatan untuk menjalin kasih sayang yang kau ciptakan diantara
+                Kami.
+                <br>
+                Dengan undangan ini, Kami bermaksud mengundang bapak/ibu untuk hadir dalam
+                acara resepsi pernikahan Kami:
+            </p>
+
+
+            <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="oleo text-center m-3 fw-bold">Zaenal Ansori, S.Pd.I ( Dede )</h1>
+            <h3 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine" class="text-center m-3">
+                dengan</h3>
+            <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="oleo text-center m-3 fw-bold">Giyansa Nurul Aulia, S.Pd,. M.Pd</h1>
+
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="ghost text-center fw-semibold mb-5">
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="page2">
+
+        <div class="first d-flex align-items-center flex-column justify-content-between ">
+
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class=" text-center position-relative z-2 mt-2">
+                <h1 class="title mt-4">Undangan dan Acara</h1>
+            </div>
+
+        
+
+                <div class="row" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                      <div class="card text-bg-primary mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title"> Acara 1</h5>
+                            <p>
+                                Hari : Sabtu
+                            </p>
+                            <p>Tanggal : 11 Maret 2023 M
+                                <br>
+                                (18 Sya'ban 1444 H)
+                            </p>
+                            Tempat : Blok Bahrul Ulum, Desa Rawa,
+                            <br>
+                            Kec. Cingambul Kab.Majalengka
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card text-bg-primary mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Acara Akad</h5>
+                          <p>
+                            Hari : Minggu
+                        </p>
+                        <p>Tanggal : 12 Maret 2023 M
+                            <br>
+                            (19 Sya'ban 1444 H)
+                        </p>
+                        Tempat : Blok Cicariang Tengah Rt.05 Rw.10, Desa Padarek,
+                        <br>
+                        Kec. Lemahsugih Kab.Majalengka
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="text-center fw-semibold mb-5">Merupakan sebuah kebahagiaan bagi kamiapabila Bapak/Ibu/Saudara/i
+                berkenan hadir untuk memberikan
+                do'a restu kepada Kami.
+            </p>
+            <div class="ghost"></div>
+        </div>
+
+    </div>
+
+    <div id="page3">
+
+        <div class="second d-flex align-items-center flex-column justify-content-between ">
+            <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine" class="title m-3"> Tempat
+                Dan Alamat</h1>
+            <p class="text-center">Alamat Akad : Blok Cicariang Tengah Rt.05 Rw.10, Desa Padarek,
+                Kec. Lemahsugih Kab.Majalengka</p>
+            <div class="maps m-3">
+            </div>
+
+            <a data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                href="https://www.google.com/maps/place/6%C2%B058'38.3%22S+108%C2%B012'57.1%22E/@-6.9775175,108.2157073,17.5z/data=!4m4!3m3!8m2!3d-6.977308!4d108.215856"" class="
+                btn btn-primary mb-5">Buka Maps
+            </a>
+
+            <div class="ghost"></div>
+
+        </div>
+
+
+    </div>
+
+    <div id="page4">
+
+        <div class="third d-flex align-items-center flex-column justify-content-between ">
+            <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine" class="another mt-5"> Thanks
+                to Our Vendors</h1>
+            <div class="logo">
+
+            </div>
+
+            <h1 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+                class="another text-center color-bg3"> <i> The Wedding Of Zaenal & Giyansa </i></h1>
+
+            <footer>
+                <p class=" fw-bold"><i>Powered by:</i> <a href="">Yogi Putra</a></p>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/countdown.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

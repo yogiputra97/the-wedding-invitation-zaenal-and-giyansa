@@ -1,0 +1,38 @@
+@media only screen and (max-width: 280px) {
+    .first {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .second {
+        background-size: cover;
+        background-position: left;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .first {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .second {
+        background-size: cover;
+        background-position: left;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .first {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .second {
+        background-size: cover;
+        background-position: left;
+    }
+
+}
